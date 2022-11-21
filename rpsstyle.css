@@ -1,0 +1,40 @@
+body {
+    background-color: #6CACC7;
+  }
+
+  .maintext{
+    font-size: 5em;
+    text-align: center;
+    margin-bottom: 0.5em;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .option {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    transition: 120ms;
+  }
+  
+  img {
+    max-width: 200px;
+    height: auto;
+ }
+
+  .results {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    font-size: 2em;
+  }
+  
+  .result-score {
+    margin-left: 0.3em;
+    font-size: 1em;
+    color: whitesmoke;
+  }
